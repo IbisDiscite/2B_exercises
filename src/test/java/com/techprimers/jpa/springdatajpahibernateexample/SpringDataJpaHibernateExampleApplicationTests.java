@@ -1,6 +1,6 @@
 package com.techprimers.jpa.springdatajpahibernateexample;
 
-import com.techprimers.jpa.springdatajpahibernateexample.resource.UserRepository;
+import com.techprimers.jpa.springdatajpahibernateexample.resource.ExerciseRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class SpringDataJpaHibernateExampleApplicationTests {
     MockMvc mockMvc;
 
     @MockBean
-    UserRepository userRepository;
+    ExerciseRepository userRepository;
 
     @Test
     public void contextLoads() throws Exception {
@@ -35,7 +35,7 @@ public class SpringDataJpaHibernateExampleApplicationTests {
         );
 
         MvcResult mvcResult = mockMvc.perform(
-                MockMvcRequestBuilders.get("/all/")
+                MockMvcRequestBuilders.get("/exercises/")
                         .accept(MediaType.APPLICATION_JSON)
         ).andReturn();
 
