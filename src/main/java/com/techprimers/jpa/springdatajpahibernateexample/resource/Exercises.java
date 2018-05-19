@@ -15,13 +15,17 @@ public class Exercises {
     private String enunciado;
     private String opc1;
     private String opc2;
+    private  String opc3;
+    private String opc4;
     private String respuesta;
 
-    public Exercises(Integer leccion, String enunciado, String opc1, String opc2, String respuesta) {
+    public Exercises(Integer leccion, String enunciado, String opc1, String opc2, String opc3,String opc4, String respuesta) {
         this.leccion = leccion;
         this.enunciado = enunciado;
         this.opc1 = opc1;
         this.opc2 = opc2;
+        this.opc3 = opc3;
+        this.opc3 = opc4;
         this.respuesta = respuesta;
     }
 
@@ -67,6 +71,11 @@ public class Exercises {
         this.opc2 = opc2;
     }
 
+    public String getOpc3() { return opc3; }
+
+    public void setOpc3(String opc3) {
+        this.opc3 = opc3;
+    }
     public String getRespuesta() {
         return respuesta;
     }
@@ -83,6 +92,8 @@ public class Exercises {
                 ", enunciado='" + enunciado + '\'' +
                 ", opc1='" + opc1 + '\'' +
                 ", opc2='" + opc2 + '\'' +
+                ", opc3='" + opc3 + '\'' +
+                ", opc4='" + opc4 + '\'' +
                 ", respuesta='" + respuesta + '\'' +
                 ']';
     }
