@@ -1,6 +1,6 @@
-com\techprimers\jpa\springdatajpahibernateexample\resource\Resource.class
-com\techprimers\jpa\springdatajpahibernateexample\resource\Exercises.class
-com\techprimers\jpa\springdatajpahibernateexample\Config.class
-com\techprimers\jpa\springdatajpahibernateexample\resource\ExerciseRepository.class
-com\techprimers\jpa\springdatajpahibernateexample\SpringDataJpaHibernateExampleApplication.class
-com\techprimers\jpa\springdatajpahibernateexample\resource\ExercisesService.class
+com/techprimers/jpa/springdatajpahibernateexample/resource/Exercises.class
+com/techprimers/jpa/springdatajpahibernateexample/resource/Resource.class
+com/techprimers/jpa/springdatajpahibernateexample/SpringDataJpaHibernateExampleApplication.class
+com/techprimers/jpa/springdatajpahibernateexample/resource/ExerciseRepository.class
+com/techprimers/jpa/springdatajpahibernateexample/resource/ExercisesService.class
+com/techprimers/jpa/springdatajpahibernateexample/Config.class

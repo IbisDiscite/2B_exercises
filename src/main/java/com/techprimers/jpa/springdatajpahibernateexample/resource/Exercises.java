@@ -15,7 +15,7 @@ public class Exercises {
     private String enunciado;
     private String opc1;
     private String opc2;
-    private  String opc3;
+    private String opc3;
     private String opc4;
     private String respuesta;
 
@@ -25,7 +25,7 @@ public class Exercises {
         this.opc1 = opc1;
         this.opc2 = opc2;
         this.opc3 = opc3;
-        this.opc3 = opc4;
+        this.opc4 = opc4;
         this.respuesta = respuesta;
     }
 
@@ -82,6 +82,14 @@ public class Exercises {
 
     public void setRespuesta(String respuesta) {
         this.respuesta = respuesta;
+    }
+
+    public String getOpc4() {
+        return opc4;
+    }
+
+    public void setOpc4(String opc4) {
+        this.opc4 = opc4;
     }
 
     @Override
